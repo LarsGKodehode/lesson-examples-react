@@ -1,0 +1,24 @@
+.list {
+  min-width: 40rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .4rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 25rem;
+
+  padding: 1rem 2rem;
+  margin-top: .5rem;
+  border-radius: .5rem;
+
+  background-color: bisque;
+  color: black;
+
+  text-align: left;
+
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.728);
+}
